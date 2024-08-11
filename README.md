@@ -20,11 +20,11 @@ To get started with this chatbot, you need Python installed on your machine. Thi
 ### Steps to Install
 
 1. **Clone the Repository**:
-   ```bash
+   
    git clone https://github.com/yourusername/chatbot.git
 2. Navigate to the Project Directory:
 
-cd chatbot
+'cd chatbot'
 
 Usage
 Once you have cloned the repository, follow these steps to run the chatbot:
