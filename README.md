@@ -23,27 +23,27 @@ To get started with this chatbot, you need Python installed on your machine. Thi
 
 git clone https://github.com/yourusername/chatbot.git
 
-2. Navigate to the Project Directory:
+2. **Navigate to the Project Directory**:
 
 "cd chatbot"
 
 
-Usage
+**Usage**
 Once you have cloned the repository, follow these steps to run the chatbot:
 
-Run the Chatbot Script:
+**Run the Chatbot Script**:
 
 "python chatbot.py"
 
 
-Interact with the Chatbot:
+**Interact with the Chatbot**:
 
 You can start the conversation by typing a greeting or any other input.
 
 To end the conversation, type 'bye', 'goodbye', 'see you later', or 'take care'.
 
 
-Example Interaction:
+**Example Interaction**:
 
 Welcome to the Chatbot!
 
@@ -65,10 +65,12 @@ You: Goodbye
 
 Chatbot: Catch you later!
 
-Contributing:
+##Contributing:
 
 Contributions are welcome! If you have suggestions for improvements or bug fixes, feel free to fork the repository and submit a pull request. Please ensure that your changes adhere to the following guidelines:
 
 Code Quality: Ensure your code is well-written and follows Python best practices.
+
 Documentation: Update the README or other documentation if your changes affect usage.
+
 Testing: Add tests if you are introducing new features.
