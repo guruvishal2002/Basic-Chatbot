@@ -16,21 +16,21 @@ def farewell():
     return random.choice(responses)
 
 def chatbot_response(user_input):
-    input = input.lower()
+    user_input = user_input.lower()
     
-    if input in ["hi", "hello", "hey", "greetings"]:
+    if user_input in ["hi", "hello", "hey", "greetings"]:
         return greet()
     
-    elif input in ["what's your name", "who are you", "name"]:
+    elif user_input in ["what's your name", "who are you", "name"]:
         return "I'm Chatbot, your assistant. How can I help you?"
     
-    elif input in ["how are you", "what's up", "how's it going"]:
+    elif user_input in ["how are you", "what's up", "how's it going"]:
         return "I'm doing great, thanks for asking! What about you?"
     
-    elif input in ["sorry", "apologies", "my bad"]:
+    elif user_input in ["sorry", "apologies", "my bad"]:
         return "No problem at all. How can I assist you further?"
     
-    elif input in ["bye", "goodbye", "see you later", "take care"]:
+    elif user_input in ["bye", "goodbye", "see you later", "take care"]:
         return farewell()
     
     else:
@@ -41,12 +41,13 @@ def chat():
     print("Feel free to start a conversation, or type 'bye' to exit.")
 
     while True:
-        input = input("You: ")
-        if input.lower() in ['bye', 'goodbye', 'see you later', 'take care']:
-            print("Chatbot: ", chatbot_response(input))
+        user_input = input("You: ")
+        if user_input.lower() in ['bye', 'goodbye', 'see you later', 'take care']:
+            print("Chatbot: ", chatbot_response(user_input))
             break
         else:
-            print("Chatbot: ", chatbot_response(input))
+            print("Chatbot: ", chatbot_response(user_input))
 
 if __name__ == "__main__":
     chat()
+
