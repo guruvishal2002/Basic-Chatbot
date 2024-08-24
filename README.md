@@ -20,7 +20,7 @@ To get started with this chatbot, you need Python installed on your machine. Thi
 
 1. **Clone the Repository**:
 
-  git clone
+   git clone
 
   https://github.com/yourusername/chatbot.git
 
