@@ -24,7 +24,7 @@ git clone
 
 https://github.com/yourusername/chatbot.git
 
-3. **Navigate to the Project Directory**:
+2. **Navigate to the Project Directory**:
 
 ```
 cd chatbot
@@ -68,7 +68,7 @@ You: Goodbye
 
 Chatbot: Catch you later!
 
-##Key Points:
+**Key Points**:
 
 Code Quality: Ensure your code is well-written and follows Python best practices.
 
