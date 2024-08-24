@@ -48,6 +48,7 @@ To end the conversation, type 'bye', 'goodbye', 'see you later', or 'take care'.
 
 **Example Interaction**:
 
+```
 Welcome to the Chatbot!
 
 Feel free to start a conversation, or type 'bye' to exit.
@@ -67,11 +68,12 @@ Chatbot: I'm doing great, thanks for asking! What about you?
 You: Goodbye
 
 Chatbot: Catch you later!
+```
 
 **Key Points**:
 
-Code Quality: Ensure your code is well-written and follows Python best practices.
+**Code Quality:** Ensure your code is well-written and follows Python best practices.
 
-Documentation: Update the README or other documentation if your changes affect usage.
+**Documentation:** Update the README or other documentation if your changes affect usage.
 
-Testing: Add tests if you are introducing new features.
+**Testing:** Add tests if you are introducing new features.
