@@ -1,5 +1,4 @@
 # Basic-Chatbot
-# Friendly Text-Based Chatbot
 
 ## Overview
 
@@ -25,7 +24,7 @@ To get started with this chatbot, you need Python installed on your machine. Thi
 
 2. **Navigate to the Project Directory**:
 
-   "cd chatbot"
+  cd chatbot
 
 
 **Usage**
@@ -34,7 +33,7 @@ Once you have cloned the repository, follow these steps to run the chatbot:
 
 **Run the Chatbot Script**:
 
-"python chatbot.py"
+python chatbot.py
 
 
 **Interact with the Chatbot**:
